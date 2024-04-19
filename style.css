@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+body{
+    background: rgb(29, 0, 29);
+}
+.container{
+    height: 100vh;
+}
+.top-nav{
+    background: purple;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.p1{
+    margin: 8px;
+}
+.top-left{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.p2{
+    margin-left: 15px;
+}
+.pay-t{
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+}
+.topright{
+    margin-right: 10px;
+}
+
+.main{
+    margin: 10px;
+    padding: 10px;
+    background: rgb(97, 34, 97);
+    display: flex;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}.pfp{
+    
+    border-radius: 999px;
+
+    margin-right: 20px;
+}
+.pfp img{
+    width: 64px;
+    height: 64px;
+}
+#user{
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    text-align: left;
+
+}
+#details{
+    color: rgb(146, 146, 146);
+    font-weight: 400;
+    text-align: left;
+    font-size: 14px;
+}
+.amm i{
+    position: absolute;
+}
+.name{
+    padding: 8px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+.inputs{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+.amm{
+    width: 100%;
+}
+::placeholder{
+    font-weight: 600;
+    font-size: 20px;
+}
+.field{
+    padding: 17px;
+    border-radius: 6px;
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    border: 3px  #643264 solid;
+    background: rgb(97, 34, 97);
+}
+.notes{
+    margin-top: 12px;
+    width: 100%;
+}
+.field:focus{
+    background: rgb(97, 34, 97);
+outline: none;
+border: none;
+-webkit-box-shadow: 0px 0px 0px 4px rgb(175, 0, 175);
+-moz-box-shadow: 0px 0px 0px 4px rgb(175, 0, 175);
+box-shadow: 0px 0px 0px 4px rgb(175, 0, 175);
+
+}
+.proc{
+     position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+.proc button{
+    background: rgb(109, 0, 109);
+    padding: 25px;
+    border: none;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
+.proc button:hover{
+    background: purple;
+}
